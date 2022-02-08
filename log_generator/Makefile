@@ -1,6 +1,6 @@
 OBJS := log_writer.o
 PREFIX := /usr
-BIN := log_writer
+BIN := log_writer log_writer2 log_writer3
 CFLAGS := -Wall
 CPPFLAGS := -I$(shell pwd)/../logger/lib -L$(shell pwd)/../logger/lib -llogger -lsqlite3
 
