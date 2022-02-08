@@ -21,10 +21,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	
-	if(program != NULL)
-		print_log(program);
-	else
-		print_log(NULL);
+	print_log(program);
 	
 	close_logger();
 	
